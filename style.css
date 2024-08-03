@@ -98,7 +98,6 @@ main {
 	font-size: 1.4rem;
 	font-weight: 600;
 	transition: 0.2s ease-in;
-	margin-top: 1rem;
 }
 
 .title:hover {
@@ -174,7 +173,7 @@ main {
 /* media */
 @media only screen and (max-width: 488px) {
 	.container {
-		min-height: 0;
+		min-height: unset;
 		width: 70%;
 		gap: 0.4rem;
 	}
@@ -195,6 +194,11 @@ main {
 
 	.additional-info-subsection {
 		padding-bottom: 0.9rem;
+	}
+
+	images-container {
+		max-height: unset;
+		max-width: unset;
 	}
 }
 

@@ -103,7 +103,7 @@ main {
 	transition: 0.2s ease-in;
 }
 
-.title:hover {
+.title-link:hover {
 	color: var(--cyan);
 	transition: 0.2s ease-in;
 	cursor: pointer;

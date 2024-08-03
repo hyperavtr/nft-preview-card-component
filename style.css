@@ -171,9 +171,9 @@ main {
 }
 
 /* media */
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 400px) {
 	.container {
-		width: 70%;
+		width: 85%;
 	}
 
 	.title {
@@ -182,12 +182,6 @@ main {
 
 	.description {
 		font-size: 1rem;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-	.container {
-		width: 85%;
 	}
 
 	.container footer {

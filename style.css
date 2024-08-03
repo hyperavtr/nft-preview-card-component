@@ -46,7 +46,6 @@ main {
 	display: flex;
 	flex-direction: column;
 	width: 63%;
-	min-height: 560px;
 	background-color: var(--very-dark-blue-card-BG);
 	gap: 0.8rem;
 	border-radius: 1rem;
@@ -94,9 +93,13 @@ main {
 
 /* title */
 .title {
-	color: var(--white);
 	font-size: 1.4rem;
 	font-weight: 600;
+	margin-top: 0.8rem;
+}
+
+.title-link {
+	color: var(--white);
 	transition: 0.2s ease-in;
 }
 
@@ -173,7 +176,6 @@ main {
 /* media */
 @media only screen and (max-width: 488px) {
 	.container {
-		min-height: unset;
 		width: 70%;
 		gap: 0.4rem;
 	}

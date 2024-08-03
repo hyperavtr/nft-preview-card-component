@@ -45,9 +45,10 @@ main {
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 61%;
+	width: 63%;
+	min-height: 560px;
 	background-color: var(--very-dark-blue-card-BG);
-	gap: 0.7rem;
+	gap: 0.8rem;
 	border-radius: 1rem;
 	padding: 1.5rem;
 	box-shadow:
@@ -110,7 +111,7 @@ main {
 	display: flex;
 	justify-content: space-between;
 	border-bottom: solid 1px var(--very-dark-blue-line);
-	padding-bottom: 1.2rem;
+	padding-bottom: 1.4rem;
 	margin-top: 0.5rem;
 }
 
@@ -146,8 +147,8 @@ main {
 	display: flex;
 	align-items: center;
 	gap: 1rem;
-	padding-bottom: 0.3rem;
 	font-size: 1rem;
+	margin-top: 0.3rem;
 }
 
 .author-avatar {
@@ -173,6 +174,7 @@ main {
 @media only screen and (max-width: 400px) {
 	.container {
 		width: 85%;
+		gap: 0.4rem;
 	}
 
 	.title {
@@ -185,5 +187,17 @@ main {
 
 	.container footer {
 		padding-bottom: 0;
+		margin-top: 0.7rem;
+
+	}
+}
+
+@media only screen and (max-width: 509px) {
+	.container {
+		min-height: 0;
+	}
+
+	.additional-info-subsection {
+		padding-bottom: 0.9rem;
 	}
 }

@@ -171,9 +171,10 @@ main {
 }
 
 /* media */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 488px) {
 	.container {
-		width: 85%;
+		min-height: 0;
+		width: 70%;
 		gap: 0.4rem;
 	}
 
@@ -190,14 +191,14 @@ main {
 		margin-top: 0.7rem;
 
 	}
-}
-
-@media only screen and (max-width: 509px) {
-	.container {
-		min-height: 0;
-	}
 
 	.additional-info-subsection {
 		padding-bottom: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 399px) {
+	.container {
+		width: 85%;
 	}
 }

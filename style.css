@@ -45,10 +45,9 @@ main {
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 63%;
+	width: 61%;
 	background-color: var(--very-dark-blue-card-BG);
-	gap: 0.8rem;
-	border-radius: 1rem;
+	border-radius: 1.2rem;
 	padding: 1.5rem;
 	box-shadow:
 		-5px -20px 0px 20px rgba(12, 23, 41, 255),
@@ -64,7 +63,23 @@ main {
 	max-width: 500px;
 }
 
-/* container items */
+.main-content-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1.2rem;
+	margin-top: 1.5rem;
+}
+
+.container footer {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	padding-bottom: 0.6rem;
+}
+
+/* containers items */
 
 /* .equilibrium image  */
 .equilibrium-image {
@@ -95,7 +110,6 @@ main {
 .title {
 	font-size: 1.4rem;
 	font-weight: 600;
-	margin-top: 0.8rem;
 }
 
 .title-link {
@@ -146,14 +160,6 @@ main {
 }
 
 /*footer */
-.container footer {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	font-size: 1rem;
-	margin-top: 0.3rem;
-}
-
 .author-avatar {
 	border: 1px solid var(--white);
 	border-radius: 50%;

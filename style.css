@@ -45,7 +45,7 @@ main {
 .container {
 	display: flex;
 	flex-direction: column;
-	width: 61%;
+	width: 63%;
 	background-color: var(--very-dark-blue-card-BG);
 	border-radius: 1.2rem;
 	padding: 1.5rem;
